@@ -1,0 +1,39 @@
+# ============================================
+# MedScan AI - Git Ignore
+# ============================================
+
+# Removed / archived files (raw datasets, old code, papers)
+Removed Files/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Processed datasets (too large for GitHub)
+processed_data*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temp files
+*.tmp
+*.log
+*.bak
+
+# Cleanup script (not part of the project)
+cleanup.py
